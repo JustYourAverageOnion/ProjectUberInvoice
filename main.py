@@ -28,7 +28,7 @@ sheet.cell_value(0, 0)
 # dateTime,amt
 fontCR = ImageFont.truetype('fonts/Calibri_Regular.ttf', size=48, encoding="unic")
 # carType/Addr
-fontCL = ImageFont.truetype('fonts/Calibri_Light.ttf', size=40, encoding="unic")
+fontCL = ImageFont.truetype('fonts/Calibri_Light.ttf', size=42, encoding="unic")
 # rest
 fontCLB = ImageFont.truetype('fonts/Calibri_Light.ttf', size=52, encoding="unic")
 white = 'rgb(255, 255, 255)' # white color
@@ -50,13 +50,14 @@ for row in range(1,sheet.nrows):
     # for datetime
     draw.text((42, 312), dateTime, fill=black, font=fontCR)
     draw.text((850, 312), amount, fill=black, font=fontCR)
-    draw.text((850, 1390), amount, fill=black, font=fontCLB)
-    draw.text((850, 1490), amount, fill=black, font=fontCLB)
-    draw.text((850, 1590), amount, fill=black, font=fontCLB)
-    draw.text((850, 1690), amount, fill=black, font=fontCLB)
+    draw.text((830, 1390), amount, fill=black, font=fontCLB)
+    draw.text((830, 1490), amount, fill=black, font=fontCLB)
+    draw.text((830, 1590), amount, fill=black, font=fontCLB)
+    draw.text((830, 1690), amount, fill=black, font=fontCLB)
     draw.text((42, 395), carName, fill=grey, font=fontCL)
+    draw.text((970, 395), "Cash", fill=grey, font=fontCL)
     x = 82
-    y = 500
+    y = 495
     for line in fromAdd:
         draw.text((x, y), line, fill=grey, font=fontCL)
         y = y + fontCL.getsize('hg')[1]
