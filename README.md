@@ -8,7 +8,7 @@ Generate Uber Invoice using Excel and Python.
 4. Run the ```main.py``` file
 5. The UberInvoices will be generated as specified in the excel
 
-Things to do
+## Things to do
 - [ ] Place rupee symbol
 - [ ] Enable exception handling
 - [ ] Make into a webapp to upload excel file and download a zip/word file of the images.
