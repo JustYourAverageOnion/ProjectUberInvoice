@@ -1,6 +1,6 @@
 # ProjectUberInvoice
 Generate Uber Invoice using Excel and Python.
-
+[![Run on Repl.it](https://repl.it/badge/github/JustYourAverageOnion/ProjectUberInvoice)](https://repl.it/github/JustYourAverageOnion/ProjectUberInvoice)
 ## How to use
 1. Download the project to local and install the packages specified in the requirements file.
 2. Change the Excel sheet as needed
